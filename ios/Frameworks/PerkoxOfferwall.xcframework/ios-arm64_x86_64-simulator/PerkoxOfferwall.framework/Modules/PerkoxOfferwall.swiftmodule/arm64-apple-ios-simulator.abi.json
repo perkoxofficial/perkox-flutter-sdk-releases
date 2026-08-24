@@ -1,0 +1,1136 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "PerkoxOfferwall",
+    "printedName": "PerkoxOfferwall",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PerkoxOfferwall"
+      },
+      {
+        "kind": "Import",
+        "name": "SystemConfiguration",
+        "printedName": "SystemConfiguration",
+        "declKind": "Import",
+        "moduleName": "PerkoxOfferwall"
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "PerkoxOfferwall"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreTelephony",
+        "printedName": "CoreTelephony",
+        "declKind": "Import",
+        "moduleName": "PerkoxOfferwall"
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "PerkoxOfferwall"
+      },
+      {
+        "kind": "Import",
+        "name": "AppTrackingTransparency",
+        "printedName": "AppTrackingTransparency",
+        "declKind": "Import",
+        "moduleName": "PerkoxOfferwall"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PerkoxOfferwall"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Offerwall",
+        "printedName": "Offerwall",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "tags",
+            "printedName": "tags",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15PerkoxOfferwall0B0C4tagsSDySSypGvp",
+            "mangledName": "$s15PerkoxOfferwall0B0C4tagsSDySSypGvp",
+            "moduleName": "PerkoxOfferwall",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15PerkoxOfferwall0B0C4tagsSDySSypGvg",
+                "mangledName": "$s15PerkoxOfferwall0B0C4tagsSDySSypGvg",
+                "moduleName": "PerkoxOfferwall",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15PerkoxOfferwall0B0C4tagsSDySSypGvs",
+                "mangledName": "$s15PerkoxOfferwall0B0C4tagsSDySSypGvs",
+                "moduleName": "PerkoxOfferwall",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15PerkoxOfferwall0B0C4tagsSDySSypGvM",
+                "mangledName": "$s15PerkoxOfferwall0B0C4tagsSDySSypGvM",
+                "moduleName": "PerkoxOfferwall",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "options",
+            "printedName": "options",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15PerkoxOfferwall0B0C7optionsSDySSypGvp",
+            "mangledName": "$s15PerkoxOfferwall0B0C7optionsSDySSypGvp",
+            "moduleName": "PerkoxOfferwall",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15PerkoxOfferwall0B0C7optionsSDySSypGvg",
+                "mangledName": "$s15PerkoxOfferwall0B0C7optionsSDySSypGvg",
+                "moduleName": "PerkoxOfferwall",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15PerkoxOfferwall0B0C7optionsSDySSypGvs",
+                "mangledName": "$s15PerkoxOfferwall0B0C7optionsSDySSypGvs",
+                "moduleName": "PerkoxOfferwall",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15PerkoxOfferwall0B0C7optionsSDySSypGvM",
+                "mangledName": "$s15PerkoxOfferwall0B0C7optionsSDySSypGvM",
+                "moduleName": "PerkoxOfferwall",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onReward",
+            "printedName": "onReward",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(([Swift.String : Any?]) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([Swift.String : Any?]) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any?]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Any?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15PerkoxOfferwall0B0C8onRewardySDySSypSgGcSgvp",
+            "mangledName": "$s15PerkoxOfferwall0B0C8onRewardySDySSypSgGcSgvp",
+            "moduleName": "PerkoxOfferwall",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(([Swift.String : Any?]) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "([Swift.String : Any?]) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.String : Any?]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "Any?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "ProtocolComposition",
+                                    "printedName": "Any"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15PerkoxOfferwall0B0C8onRewardySDySSypSgGcSgvg",
+                "mangledName": "$s15PerkoxOfferwall0B0C8onRewardySDySSypSgGcSgvg",
+                "moduleName": "PerkoxOfferwall",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(([Swift.String : Any?]) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "([Swift.String : Any?]) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.String : Any?]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "Any?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "ProtocolComposition",
+                                    "printedName": "Any"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15PerkoxOfferwall0B0C8onRewardySDySSypSgGcSgvs",
+                "mangledName": "$s15PerkoxOfferwall0B0C8onRewardySDySSypSgGcSgvs",
+                "moduleName": "PerkoxOfferwall",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15PerkoxOfferwall0B0C8onRewardySDySSypSgGcSgvM",
+                "mangledName": "$s15PerkoxOfferwall0B0C8onRewardySDySSypSgGcSgvM",
+                "moduleName": "PerkoxOfferwall",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onClose",
+            "printedName": "onClose",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15PerkoxOfferwall0B0C7onCloseyycSgvp",
+            "mangledName": "$s15PerkoxOfferwall0B0C7onCloseyycSgvp",
+            "moduleName": "PerkoxOfferwall",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15PerkoxOfferwall0B0C7onCloseyycSgvg",
+                "mangledName": "$s15PerkoxOfferwall0B0C7onCloseyycSgvg",
+                "moduleName": "PerkoxOfferwall",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15PerkoxOfferwall0B0C7onCloseyycSgvs",
+                "mangledName": "$s15PerkoxOfferwall0B0C7onCloseyycSgvs",
+                "moduleName": "PerkoxOfferwall",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15PerkoxOfferwall0B0C7onCloseyycSgvM",
+                "mangledName": "$s15PerkoxOfferwall0B0C7onCloseyycSgvM",
+                "moduleName": "PerkoxOfferwall",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "beta",
+            "printedName": "beta",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15PerkoxOfferwall0B0C4betaSbvp",
+            "mangledName": "$s15PerkoxOfferwall0B0C4betaSbvp",
+            "moduleName": "PerkoxOfferwall",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15PerkoxOfferwall0B0C4betaSbvg",
+                "mangledName": "$s15PerkoxOfferwall0B0C4betaSbvg",
+                "moduleName": "PerkoxOfferwall",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15PerkoxOfferwall0B0C4betaSbvs",
+                "mangledName": "$s15PerkoxOfferwall0B0C4betaSbvs",
+                "moduleName": "PerkoxOfferwall",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15PerkoxOfferwall0B0C4betaSbvM",
+                "mangledName": "$s15PerkoxOfferwall0B0C4betaSbvM",
+                "moduleName": "PerkoxOfferwall",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "launch",
+            "printedName": "launch(viewController:beta:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15PerkoxOfferwall0B0C6launch14viewController4betaySo06UIViewE0C_SbtF",
+            "mangledName": "$s15PerkoxOfferwall0B0C6launch14viewController4betaySo06UIViewE0C_SbtF",
+            "moduleName": "PerkoxOfferwall",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15PerkoxOfferwall0B0C",
+        "mangledName": "$s15PerkoxOfferwall0B0C",
+        "moduleName": "PerkoxOfferwall",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PerkoxOfferwall"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "PerkoxOfferwall"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PerkoxOfferwall"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "PerkoxOfferwall"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PerkoxOfferwall"
+      },
+      {
+        "kind": "Function",
+        "name": "create",
+        "printedName": "create(appId:sdkKey:playerId:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Offerwall",
+            "printedName": "PerkoxOfferwall.Offerwall",
+            "usr": "s:15PerkoxOfferwall0B0C"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:15PerkoxOfferwall6create5appId6sdkKey06playerE0AA0B0CSS_S2StF",
+        "mangledName": "$s15PerkoxOfferwall6create5appId6sdkKey06playerE0AA0B0CSS_S2StF",
+        "moduleName": "PerkoxOfferwall",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PerkoxOfferwall"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PerkoxOfferwall"
+      },
+      {
+        "kind": "Import",
+        "name": "CFNetwork",
+        "printedName": "CFNetwork",
+        "declKind": "Import",
+        "moduleName": "PerkoxOfferwall"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/shanto\/Projects\/Perkox\/perkox-ios-sdk\/Sources\/PerkoxOfferwall\/DeviceInfoHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 189,
+      "length": 7,
+      "value": "\"2.0.9\""
+    },
+    {
+      "filePath": "\/Users\/shanto\/Projects\/Perkox\/perkox-ios-sdk\/Sources\/PerkoxOfferwall\/Offerwall.swift",
+      "kind": "Dictionary",
+      "offset": 284,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/shanto\/Projects\/Perkox\/perkox-ios-sdk\/Sources\/PerkoxOfferwall\/Offerwall.swift",
+      "kind": "Dictionary",
+      "offset": 375,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/shanto\/Projects\/Perkox\/perkox-ios-sdk\/Sources\/PerkoxOfferwall\/Offerwall.swift",
+      "kind": "BooleanLiteral",
+      "offset": 512,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shanto\/Projects\/Perkox\/perkox-ios-sdk\/Sources\/PerkoxOfferwall\/Offerwall.swift",
+      "kind": "BooleanLiteral",
+      "offset": 885,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shanto\/Projects\/Perkox\/perkox-ios-sdk\/Sources\/PerkoxOfferwall\/Offerwall.swift",
+      "kind": "StringLiteral",
+      "offset": 1352,
+      "length": 8,
+      "value": "\"app_id\""
+    },
+    {
+      "filePath": "\/Users\/shanto\/Projects\/Perkox\/perkox-ios-sdk\/Sources\/PerkoxOfferwall\/Offerwall.swift",
+      "kind": "StringLiteral",
+      "offset": 1392,
+      "length": 9,
+      "value": "\"sdk_key\""
+    },
+    {
+      "filePath": "\/Users\/shanto\/Projects\/Perkox\/perkox-ios-sdk\/Sources\/PerkoxOfferwall\/Offerwall.swift",
+      "kind": "StringLiteral",
+      "offset": 1435,
+      "length": 11,
+      "value": "\"player_id\""
+    },
+    {
+      "filePath": "\/Users\/shanto\/Projects\/Perkox\/perkox-ios-sdk\/Sources\/PerkoxOfferwall\/OfferwallViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 244,
+      "length": 24,
+      "value": "\"https:\/\/pub.perkox.com\""
+    },
+    {
+      "filePath": "\/Users\/shanto\/Projects\/Perkox\/perkox-ios-sdk\/Sources\/PerkoxOfferwall\/OfferwallViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 463,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shanto\/Projects\/Perkox\/perkox-ios-sdk\/Sources\/PerkoxOfferwall\/OfferwallViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 500,
+      "length": 19,
+      "value": "\"OfferwallActivity\""
+    },
+    {
+      "filePath": "\/Users\/shanto\/Projects\/Perkox\/perkox-ios-sdk\/Sources\/PerkoxOfferwall\/OfferwallViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1604,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/shanto\/Projects\/Perkox\/perkox-ios-sdk\/Sources\/PerkoxOfferwall\/OfferwallViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1607,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/shanto\/Projects\/Perkox\/perkox-ios-sdk\/Sources\/PerkoxOfferwall\/OfferwallViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1619,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/shanto\/Projects\/Perkox\/perkox-ios-sdk\/Sources\/PerkoxOfferwall\/OfferwallViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1622,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/shanto\/Projects\/Perkox\/perkox-ios-sdk\/Sources\/PerkoxOfferwall\/OfferwallViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1633,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/shanto\/Projects\/Perkox\/perkox-ios-sdk\/Sources\/PerkoxOfferwall\/OfferwallViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1636,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/shanto\/Projects\/Perkox\/perkox-ios-sdk\/Sources\/PerkoxOfferwall\/OfferwallViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1648,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/shanto\/Projects\/Perkox\/perkox-ios-sdk\/Sources\/PerkoxOfferwall\/OfferwallViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1860,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shanto\/Projects\/Perkox\/perkox-ios-sdk\/Sources\/PerkoxOfferwall\/OfferwallViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2045,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/shanto\/Projects\/Perkox\/perkox-ios-sdk\/Sources\/PerkoxOfferwall\/OfferwallViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2124,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/shanto\/Projects\/Perkox\/perkox-ios-sdk\/Sources\/PerkoxOfferwall\/OfferwallViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2332,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shanto\/Projects\/Perkox\/perkox-ios-sdk\/Sources\/PerkoxOfferwall\/OfferwallViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2365,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/shanto\/Projects\/Perkox\/perkox-ios-sdk\/Sources\/PerkoxOfferwall\/OfferwallViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2440,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/shanto\/Projects\/Perkox\/perkox-ios-sdk\/Sources\/PerkoxOfferwall\/OfferwallViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2443,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/shanto\/Projects\/Perkox\/perkox-ios-sdk\/Sources\/PerkoxOfferwall\/OfferwallViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2455,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/shanto\/Projects\/Perkox\/perkox-ios-sdk\/Sources\/PerkoxOfferwall\/OfferwallViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2458,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/shanto\/Projects\/Perkox\/perkox-ios-sdk\/Sources\/PerkoxOfferwall\/OfferwallViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2469,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/shanto\/Projects\/Perkox\/perkox-ios-sdk\/Sources\/PerkoxOfferwall\/OfferwallViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2472,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/shanto\/Projects\/Perkox\/perkox-ios-sdk\/Sources\/PerkoxOfferwall\/OfferwallViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2484,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/shanto\/Projects\/Perkox\/perkox-ios-sdk\/Sources\/PerkoxOfferwall\/OfferwallViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2516,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shanto\/Projects\/Perkox\/perkox-ios-sdk\/Sources\/PerkoxOfferwall\/PerkoxJSBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 230,
+      "length": 16,
+      "value": "\"PerkoxJSBridge\""
+    }
+  ]
+}

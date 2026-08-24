@@ -1,0 +1,6 @@
+framework module PerkoxOfferwall {
+  umbrella header "PerkoxOfferwall.h"
+  export *
+
+  module * { export * }
+}
