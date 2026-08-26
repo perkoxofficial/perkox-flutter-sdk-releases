@@ -3,7 +3,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'perkox_flutter_sdk'
-  s.version          = '2.0.0'
+  s.version          = '2.0.1'
   s.summary          = 'Perkox Offerwall Flutter SDK for iOS'
   s.description      = <<-DESC
 Perkox Offerwall Flutter SDK bridging native iOS Offerwall.
@@ -13,6 +13,7 @@ Perkox Offerwall Flutter SDK bridging native iOS Offerwall.
   s.author           = { 'Perkox' => 'support@perkox.com' }
   s.source           = { :path => '.' }
   s.source_files     = 'perkox_flutter_sdk/Sources/perkox_flutter_sdk/**/*.{h,m,mm,swift}'
+  s.exclude_files    = 'Frameworks/**/*'
   s.dependency 'Flutter'
   s.platform         = :ios, '13.0'
 

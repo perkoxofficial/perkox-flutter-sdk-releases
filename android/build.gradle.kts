@@ -33,7 +33,7 @@ kotlin {
 
 dependencies {
     // Perkox Android Native SDK via JitPack
-    implementation("com.perkox:perkox-android-sdk-releases:2.0.2")
+    implementation("com.perkox:perkox-android-sdk-releases:2.0.3")
 
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
