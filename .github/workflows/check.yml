@@ -1,0 +1,55 @@
+# Release repo for the Flutter SDK. The manifest must parse and the declared
+# entry points must exist — those are hard requirements, so they fail the build.
+#
+# The version/CHANGELOG agreement is checked but ADVISORY, because it does not
+# hold today: pubspec.yaml is at 2.0.2 while CHANGELOG.md still tops out at
+# 2.0.0, so two releases went out undocumented.
+#
+# Landing that as a blocking check would make main red on arrival and block
+# every merge until someone backfills history they may no longer remember. A
+# gate people have to merge past on day one teaches them the gate is noise.
+# It reports instead; make it blocking once the changelog is caught up.
+
+name: Check
+
+on:
+  push:
+    branches: [ main, dev ]
+  pull_request:
+    branches: [ main, dev ]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: pubspec must parse and its entry points must exist
+        run: |
+          python3 -m pip install --quiet pyyaml
+          python3 - <<'PY'
+          import yaml, os, sys
+          spec = yaml.safe_load(open('pubspec.yaml'))
+          print(f"{spec.get('name')} {spec.get('version')}")
+          fail = []
+          if not spec.get('name'):    fail.append("pubspec.yaml has no name")
+          if not spec.get('version'): fail.append("pubspec.yaml has no version")
+          if not os.path.isdir('lib'):
+              fail.append("lib/ is missing — there is nothing to publish")
+          if fail:
+              for f in fail: print("::error::" + f)
+              sys.exit(1)
+          print("pubspec parses, lib/ present")
+          PY
+
+      - name: Version should appear in the CHANGELOG (advisory)
+        continue-on-error: true
+        run: |
+          python3 -m pip install --quiet pyyaml
+          v=$(python3 -c "import yaml;print(yaml.safe_load(open('pubspec.yaml'))['version'])")
+          if grep -q "^## *$v" CHANGELOG.md; then
+            echo "CHANGELOG documents $v"
+          else
+            echo "::warning::pubspec is at $v but CHANGELOG.md has no '## $v' entry"
+            echo "CHANGELOG currently tops out at: $(grep -m1 '^## ' CHANGELOG.md)"
+          fi
