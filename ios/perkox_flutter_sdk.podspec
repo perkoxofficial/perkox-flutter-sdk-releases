@@ -3,7 +3,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'perkox_flutter_sdk'
-  s.version          = '2.0.1'
+  s.version          = '2.0.3'
   s.summary          = 'Perkox Offerwall Flutter SDK for iOS'
   s.description      = <<-DESC
 Perkox Offerwall Flutter SDK bridging native iOS Offerwall.
