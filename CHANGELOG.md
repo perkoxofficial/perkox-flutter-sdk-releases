@@ -1,3 +1,7 @@
+## 2.0.5
+* Updated native Android SDK to v2.0.7 (open offer tracking URLs in external default browser).
+* Updated native iOS SDK to v2.0.11 (open offer tracking URLs in external default browser).
+
 ## 2.0.4
 * Updated native Android SDK to v2.0.6 (file upload & chooser support in OfferwallActivity).
 * Updated native iOS SDK to v2.0.10 (Photo Library and Camera permissions & file upload handlers).
