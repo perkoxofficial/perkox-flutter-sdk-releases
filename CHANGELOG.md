@@ -1,3 +1,6 @@
+## 2.0.6
+* Updated native Android SDK to v2.0.8 (robust file upload with system chooser, MIME type mapping, and parseResult handling).
+
 ## 2.0.5
 * Updated native Android SDK to v2.0.7 (open offer tracking URLs in external default browser).
 * Updated native iOS SDK to v2.0.11 (open offer tracking URLs in external default browser).
