@@ -1,3 +1,6 @@
+## 2.0.7
+* Updated native Android SDK to v2.0.9 (safe area adjustments and edge-to-edge support).
+
 ## 2.0.6
 * Updated native Android SDK to v2.0.8 (robust file upload with system chooser, MIME type mapping, and parseResult handling).
 
