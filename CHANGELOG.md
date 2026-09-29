@@ -1,3 +1,9 @@
+## 2.0.8
+* Removed photo, camera, and storage permissions from native Android (v2.0.10) and iOS (v2.0.12) SDKs.
+
+## 2.0.7
+* Updated native Android SDK to v2.0.9 (safe area adjustments and edge-to-edge support).
+
 ## 2.0.6
 * Updated native Android SDK to v2.0.8 (robust file upload with system chooser, MIME type mapping, and parseResult handling).
 

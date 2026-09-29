@@ -10,7 +10,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		T34BcDZFA/R9YKaR/vNESqUCYMM=
+		UhTT21n25b3lI9hWWMkFe1DBvsU=
 		</data>
 		<key>Modules/PerkoxOfferwall.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/PerkoxOfferwall.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		tVNzUUWMGGpZU2B1Zqv0ttxHmtU=
+		OgWwK6+gStLbpz6JOgNsBdb+5Bg=
 		</data>
 		<key>Modules/PerkoxOfferwall.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/PerkoxOfferwall.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		dF3Q5rSBAAxh15XBaf0xRj7pW5c=
+		IqGxuzAWFCivWRYTGIxypUdhRaY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -102,7 +102,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7MYSnukWAlqNokPuh/W9KiNWHW4fdBjLbkTSMKoHvTY=
+			GHDaGMn54eh3YlkHbyTtSwqCOuec6Aysr5Iyn5DtVpk=
 			</data>
 		</dict>
 		<key>Modules/PerkoxOfferwall.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -137,7 +137,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/M2WWv88mueP9ckIQR5E+/uclRQwhymUlapgBYCeNhM=
+			OafEFasGjWJauid+SFpH4uVIW7S2xSELTsJGRqbXScs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
