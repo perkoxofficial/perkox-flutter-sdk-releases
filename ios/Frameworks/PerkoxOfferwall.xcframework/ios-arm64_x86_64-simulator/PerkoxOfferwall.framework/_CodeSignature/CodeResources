@@ -14,43 +14,43 @@
 		</data>
 		<key>Modules/PerkoxOfferwall.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		vm2hJqVaqH0e8vkeFyvMBxl5Qg4=
+		NxlRyxJkc7F8n5/C/PpWlexVwKk=
 		</data>
 		<key>Modules/PerkoxOfferwall.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ZmzleaTfypt0XzkNb/UXUf6/yVM=
+		uP4Inz8iFTMdyXFfb4sriyBQGpk=
 		</data>
 		<key>Modules/PerkoxOfferwall.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		AYFgBEBjbGZD661e9JexTSUYK2c=
+		ZkdO0Am1BSkl5uY88x1k+sTkB2w=
 		</data>
 		<key>Modules/PerkoxOfferwall.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ZmzleaTfypt0XzkNb/UXUf6/yVM=
+		uP4Inz8iFTMdyXFfb4sriyBQGpk=
 		</data>
 		<key>Modules/PerkoxOfferwall.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		OgWwK6+gStLbpz6JOgNsBdb+5Bg=
+		vtftvviZoMr3gHUil9sW4zGm5d0=
 		</data>
 		<key>Modules/PerkoxOfferwall.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		vm2hJqVaqH0e8vkeFyvMBxl5Qg4=
+		NxlRyxJkc7F8n5/C/PpWlexVwKk=
 		</data>
 		<key>Modules/PerkoxOfferwall.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		je7POMjQ/GVJ6WVfWXLr0J6MTUA=
+		K9Lq5qZXoMGJqyDx8o8pgfQzi5I=
 		</data>
 		<key>Modules/PerkoxOfferwall.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		DhlGz0wOgZH6DVPoFMFU9JpaN2A=
+		KwNMi8fP1CRCVtqG4FcSCmiGyhM=
 		</data>
 		<key>Modules/PerkoxOfferwall.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		je7POMjQ/GVJ6WVfWXLr0J6MTUA=
+		K9Lq5qZXoMGJqyDx8o8pgfQzi5I=
 		</data>
 		<key>Modules/PerkoxOfferwall.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		IqGxuzAWFCivWRYTGIxypUdhRaY=
+		nHpfyTRtpOeaxM1PKmL0EtX3pRo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -74,70 +74,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8bmNNxltlOBb+Yo2f4YI2yfKbLLoh8uXovVDAjopOHo=
+			JlAP+D2FmRU4qJAO82dSX4YjHDm/ZBP8s0PEoos2hjI=
 			</data>
 		</dict>
 		<key>Modules/PerkoxOfferwall.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VWZO8KtxkS5E7NuCIijf8qze5KEqFkUw5a5s1LzRFJ8=
+			cY3pbw4fektD/soKN4CAsr8zFt3YhYAXlzJvErGy2a0=
 			</data>
 		</dict>
 		<key>Modules/PerkoxOfferwall.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/0CW4IhPR6PaRfA33B0kVVpNGAmAmsPmCXT93Dm2if0=
+			Rh2UKgvnZIO5QcbeG1dqqBFBJ40cJ2hsH6f3L57I9Fg=
 			</data>
 		</dict>
 		<key>Modules/PerkoxOfferwall.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VWZO8KtxkS5E7NuCIijf8qze5KEqFkUw5a5s1LzRFJ8=
+			cY3pbw4fektD/soKN4CAsr8zFt3YhYAXlzJvErGy2a0=
 			</data>
 		</dict>
 		<key>Modules/PerkoxOfferwall.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GHDaGMn54eh3YlkHbyTtSwqCOuec6Aysr5Iyn5DtVpk=
+			38VGCOwM/+wr/5xseFlHhWTFZ5fN25H5SEeF3pYH9S8=
 			</data>
 		</dict>
 		<key>Modules/PerkoxOfferwall.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8bmNNxltlOBb+Yo2f4YI2yfKbLLoh8uXovVDAjopOHo=
+			JlAP+D2FmRU4qJAO82dSX4YjHDm/ZBP8s0PEoos2hjI=
 			</data>
 		</dict>
 		<key>Modules/PerkoxOfferwall.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EofgG0rROF74Vq67oGjeT1BKRctlqKiHLUXqURxi5NA=
+			b4MuIH7iAkJVL/4Qpl9Jr/awzHd1hwcl5gBTneDjoTE=
 			</data>
 		</dict>
 		<key>Modules/PerkoxOfferwall.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qzKm2+y4gwhaPhNS182RDNFI9NRgaWpS6Goa20b85Xg=
+			CM+TQoAPEE9CsAMer4Q+3RyQGeSNZi91KZDMnGwSgOE=
 			</data>
 		</dict>
 		<key>Modules/PerkoxOfferwall.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EofgG0rROF74Vq67oGjeT1BKRctlqKiHLUXqURxi5NA=
+			b4MuIH7iAkJVL/4Qpl9Jr/awzHd1hwcl5gBTneDjoTE=
 			</data>
 		</dict>
 		<key>Modules/PerkoxOfferwall.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OafEFasGjWJauid+SFpH4uVIW7S2xSELTsJGRqbXScs=
+			jRzpBQrR+pxQLl3Wl8yC1rybusbmp2WPYDihr/YRyHE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

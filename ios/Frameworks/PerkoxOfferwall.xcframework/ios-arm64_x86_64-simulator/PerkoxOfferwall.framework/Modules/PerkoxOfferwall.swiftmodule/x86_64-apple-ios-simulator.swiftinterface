@@ -23,6 +23,8 @@ import _SwiftConcurrencyShims
   public var onClose: (() -> Swift.Void)?
   public var beta: Swift.Bool
   public func launch(viewController: UIKit.UIViewController, beta: Swift.Bool = false)
+  public func syncPendingRewards(beta: Swift.Bool = false, callback: (([[Swift.String : Any?]]) -> Swift.Void)? = nil)
   @objc deinit
 }
 public func create(appId: Swift.String, sdkKey: Swift.String, playerId: Swift.String) -> PerkoxOfferwall.Offerwall
+public func syncPendingRewards(appId: Swift.String, sdkKey: Swift.String, playerId: Swift.String, beta: Swift.Bool = false, callback: (([[Swift.String : Any?]]) -> Swift.Void)? = nil)
