@@ -62,6 +62,9 @@ class PerkoxReward {
     );
   }
 
+  /// Access any dynamic custom parameter (e.g. click_id, cid, sub1) passed by the server.
+  dynamic operator [](String key) => raw[key];
+
   /// Converts the reward model to a standard Map.
   Map<String, dynamic> toMap() => {
         'amount': amount,

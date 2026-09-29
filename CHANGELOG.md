@@ -1,3 +1,8 @@
+## 2.0.9
+* Dynamic reward payload preservation for all server keys (e.g. click_id, cid, sub1).
+* Added operator [] to PerkoxReward for easy key access.
+* Pending rewards auto-sync and native Android (v2.0.11) & iOS (v2.0.13) update.
+
 ## 2.0.8
 * Removed photo, camera, and storage permissions from native Android (v2.0.10) and iOS (v2.0.12) SDKs.
 
