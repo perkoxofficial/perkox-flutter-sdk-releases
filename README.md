@@ -121,16 +121,21 @@ await offerwall.show();
 
 ---
 
-### 4. Listen for Rewards & Events
+### 4. Listen for Rewards & Dynamic Payloads
 
-Subscribe to real-time rewards anywhere in your application:
+Subscribe to real-time and offline rewards anywhere in your application. Server fields (`click_id`, `cid`, `offer_id`, `sub1`..`sub5`) are **100% dynamically preserved**:
 
 ```dart
 // Stream listener for rewards
 final rewardSub = PerkoxSDK.onReward((PerkoxReward reward) {
-  print("Earned: ${reward.amount}");
+  print("Earned: ${reward.amount} (Status: ${reward.status})");
   print("TxID: ${reward.txid}");
-  print("Status: ${reward.status}");
+  
+  // Access any dynamic server/advertiser parameter directly
+  final clickId = reward["click_id"];
+  final offerId = reward["offer_id"];
+  print("Attributed Click: $clickId, Offer: $offerId");
+  print("Full raw payload: ${reward.raw}");
 });
 
 // Listener for Offerwall dismissal
@@ -144,6 +149,27 @@ void dispose() {
   rewardSub.cancel();
   closeSub.cancel();
   super.dispose();
+}
+```
+
+---
+
+### ⚡ 5. Offline & Pending Rewards Auto-Sync
+
+When a player finishes an offer while the Flutter app was closed or suspended:
+
+1. **Automatic Sync:** Calling `PerkoxSDK.showOfferwall()` or `offerwall.show()` automatically queries for unclaimed rewards, dispatches them to `onReward`, and acknowledges receipt (`POST /rewards/claim`) to prevent duplicate rewards.
+2. **Explicit Manual Sync:** You can also check for rewards on startup without opening the offerwall:
+
+```dart
+final List<PerkoxReward> pendingRewards = await PerkoxSDK.syncPendingRewards(
+  appId: "YOUR_APP_ID",
+  sdkKey: "YOUR_SDK_KEY",
+  playerId: "user_12345",
+);
+
+for (final r in pendingRewards) {
+  print("Synced offline reward: ${r.amount} (TxID: ${r.txid})");
 }
 ```
 
