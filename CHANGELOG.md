@@ -1,3 +1,7 @@
+## 2.0.10
+* Updated documentation with offline pending rewards auto-sync and dynamic payload access.
+* Updated native Android SDK to v2.0.12 and iOS SDK to v2.0.14.
+
 ## 2.0.9
 * Dynamic reward payload preservation for all server keys (e.g. click_id, cid, sub1).
 * Added operator [] to PerkoxReward for easy key access.
