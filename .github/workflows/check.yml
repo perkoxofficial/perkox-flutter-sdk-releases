@@ -11,6 +11,9 @@
 # It reports instead; make it blocking once the changelog is caught up.
 
 name: Check
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 on:
   push:
