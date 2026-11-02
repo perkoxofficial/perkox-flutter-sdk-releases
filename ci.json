@@ -1,0 +1,5 @@
+{
+  "image": "ghcr.io/cirruslabs/flutter:stable",
+  "command": "flutter pub get && flutter analyze --no-fatal-infos",
+  "note": "analysis-only release staging copy of the Flutter SDK"
+}
