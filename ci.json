@@ -1,0 +1,4 @@
+{
+  "image": "ghcr.io/cirruslabs/flutter:stable",
+  "command": "flutter pub get && flutter analyze --no-fatal-infos"
+}
