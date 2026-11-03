@@ -186,3 +186,9 @@ The backend validates traffic strictly by `app_id`, `sdk_key`, and `package_id`:
 ## 📄 License
 
 MIT License © [Perkox](https://perkox.com)
+
+
+## CI
+
+This repo requires a green **`ovh-ci`** check (self-hosted CI on OVH + Mac Mini)
+before a PR can merge. No GitHub Actions. See the org `CONTRIBUTING.md`.
