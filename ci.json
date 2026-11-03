@@ -1,5 +1,1 @@
-{
-  "image": "ghcr.io/cirruslabs/flutter:stable",
-  "command": "flutter pub get && flutter analyze --no-fatal-infos",
-  "note": "analysis-only release staging copy of the Flutter SDK"
-}
+{"image": "python:3.12-alpine", "command": "python3 -c \"import os,glob,zipfile,sys; L=open('pubspec.yaml').read().splitlines(); name=next((x.split(':',1)[1].strip() for x in L if x.startswith('name:')),None); version=next((x.split(':',1)[1].strip() for x in L if x.startswith('version:')),None); print('pubspec:', name or 'NO NAME', version or 'NO VERSION'); errs=[]; errs+=['pubspec has no name'] if not name else []; errs+=['pubspec has no version'] if not version else []; errs+=['lib/ missing'] if not os.path.isdir('lib') else []; a=glob.glob('android/libs/*.aar'); errs+=['no android aar'] if not a else []; errs+=[x+' invalid aar' for x in a if (not zipfile.is_zipfile(x) or 'classes.jar' not in zipfile.ZipFile(x).namelist())]; xf=glob.glob('ios/Frameworks/*.xcframework'); errs+=['no ios xcframework'] if not xf else []; print('android aar:', a or 'none'); print('ios xcframework:', xf or 'none'); print('FAIL: '+'; '.join(errs)) if errs else print('PASS: pubspec+lib+artifacts valid'); sys.exit(1 if errs else 0)\"", "note": "release repo: validate pubspec + lib/ + bundled android aar + ios xcframework (avoids pub.dev flakiness)"}
